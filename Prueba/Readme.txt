@@ -1,0 +1,21 @@
+- index.html
+- products/
+    - producto1.html
+    - producto2.html
+    - producto3.html
+    - producto4.html
+    - producto5.html
+    - producto6.html
+- json/
+    - products.json
+- css/
+    - styles.css
+- js/
+    - script.js
+- images/
+    - producto1.jpg
+    - producto2.jpg
+    - producto3.jpg
+    - producto4.jpg
+    - producto5.jpg
+    - producto6.jpg
