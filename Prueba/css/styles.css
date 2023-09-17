@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'MiFuenteOnePiece';
+    src: url('Fuente/OnePiece.ttf') format('truetype');
+  }
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -7,6 +12,7 @@ body {
 
 header {
     background-color: #333;
+    font-family: 'MiFuenteOnePiece', sans-serif;
     color: #fff;
     padding: 20px;
     text-align: center;
