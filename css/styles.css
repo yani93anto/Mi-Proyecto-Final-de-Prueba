@@ -8,14 +8,35 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
 }
 
 header {
     background-color: #ED2621;
     font-family: 'MiFuenteOnePiece', sans-serif;
-    color: #009CD9;
+    color: #000000;
+    font-size: 30px; /* Cambia el tamaño de la letra */
     padding: 20px;
     text-align: center;
+}
+
+#modoBoton{
+    position: fixed; /* Fija la barra de navegación en la ventana del navegador */
+    top: 10px;
+    right: 10px; /* Coloca la barra de navegación en el lado derecho */;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 header h1 {
@@ -28,12 +49,13 @@ main {
 
 /* Estilos para las tarjetas de producto */
 .product-card {
-    border: 1px solid #ddd;
+    border: 3px solid #007bff;
+    border-radius: 20px;
     padding: 20px;
     margin: 10px;
     text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
 .product-card img {
@@ -76,15 +98,25 @@ footer {
     padding: 10px 0;
 }
 
-/* Estilos para el modo oscuro */
+/* Modo oscuro */
 body.dark-mode {
-    background-color: #333; /* Fondo gris oscuro */
+    background-color: #103248 !important; /* Fondo del body */
 }
 
 header.dark-mode {
     text-align: center;
     padding: 20px;
-    background-color: #000000; /* Negro para el fondo del encabezado */
+    background-color: #000000; /*(NO ESTÁ FUNCIONANDO) Negro para el fondo del encabezado */
+    color: white !important; /*(NO ESTÁ FUNCIONANDO)*/
+}
+
+.product-card.dark-mode {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /* Estilos para la página de detalles del producto (producto1.html, producto2.html, etc.) */
 /* Puedes agregar estilos específicos para las páginas de detalles de productos aquí */
