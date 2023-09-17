@@ -11,9 +11,9 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ED2621;
     font-family: 'MiFuenteOnePiece', sans-serif;
-    color: #fff;
+    color: #009CD9;
     padding: 20px;
     text-align: center;
 }
@@ -70,11 +70,21 @@ main {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #333;
+    background-color: #ED2621;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #333; /* Fondo gris oscuro */
+}
+
+header.dark-mode {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Negro para el fondo del encabezado */
+}
 /* Estilos para la página de detalles del producto (producto1.html, producto2.html, etc.) */
 /* Puedes agregar estilos específicos para las páginas de detalles de productos aquí */
