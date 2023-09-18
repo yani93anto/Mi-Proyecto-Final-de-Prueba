@@ -23,13 +23,7 @@ header {
     text-align: center;
 }
 
-#modoBoton{
-    position: fixed; /* Fija la barra de navegación en la ventana del navegador */
-    top: 10px;
-    right: 10px; /* Coloca la barra de navegación en el lado derecho */;
-    border: 3px solid #ffffff;
-    border-radius: 20px;
-}
+
 
 .btn {
     background-color: #007bff;
@@ -99,6 +93,13 @@ footer {
 }
 
 /* Modo oscuro */
+/* #boton{
+    position: fixed; // Fija la barra de navegación en la ventana del navegador
+    top: 10px;
+    right: 10px; // Coloca la barra de navegación en el lado derecho;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+} */
 body.dark-mode {
     background-color: #103248 !important; /* Fondo del body */
 }
