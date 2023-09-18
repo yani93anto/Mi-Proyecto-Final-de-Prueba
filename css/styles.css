@@ -43,6 +43,22 @@ main {
     padding: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    #products {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .product-card {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 /* Estilos para las tarjetas de producto */
 .product-card {
     border: 3px solid #007bff;
@@ -125,3 +141,4 @@ body.dark-mode .footer {
 
 /* Estilos para la página de detalles del producto (producto1.html, producto2.html, etc.) */
 /* Puedes agregar estilos específicos para las páginas de detalles de productos aquí */
+
