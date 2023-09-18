@@ -39,24 +39,33 @@ document.addEventListener("DOMContentLoaded", () => {
         return productCard;
     }
 });
-// DARK MODE
+
+/* Dark Mode */
+// Obtén una referencia al botón "Modo Oscuro"
 var boton = document.getElementById('boton');
+
+// Obtén una referencia al cuerpo de la página
 var body = document.body;
-var boton2 = document.getElementById('boton2');
 
 // Agrega un listener al botón para cambiar el modo
 boton.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');// Muestra una confirmación
+})
+
+    /*
     // Alternar la clase "dark-mode" en el elemento body
     var confirmacion = confirm('¿Deseas el modo oscuro?');
     // Verifica la respuesta de la confirmación
     if (confirmacion) {
         // El usuario hizo clic en "Aceptar", realiza la acción deseada aquí
         boton.innerHTML = 'Modo Claro'; // Cambia el texto del botón
+        header.classList.toggle('dark-mode');// Muestra una confirmación
         body.classList.toggle('dark-mode');// Muestra una confirmación
+        productCard.classList.toggle('dark-mode');// Muestra una confirmación
     } else {
         // El usuario hizo clic en "Cancelar" o cerró el cuadro de diálogo
         alert('Modo Claro');
-/*        boton2.addEventListener('click', function() {
+        boton2.addEventListener('click', function() {
             // Alternar la clase "dark-mode" en el elemento body
             var confirmacion2 = confirm('¿Deseas el modo claro?');
             // Verifica la respuesta de la confirmación
@@ -67,5 +76,4 @@ boton.addEventListener('click', function() {
             }else {
                 // El usuario hizo clic en "Cancelar" o cerró el cuadro de diálogo
                 alert('Modo Oscuro');}
-    });*/
-    }});
+    });}*/

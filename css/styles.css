@@ -17,13 +17,10 @@ body {
 header {
     background-color: #ED2621;
     font-family: 'MiFuenteOnePiece', sans-serif;
-    color: #000000;
     font-size: 30px; /* Cambia el tamaño de la letra */
     padding: 20px;
     text-align: center;
 }
-
-
 
 .btn {
     background-color: #007bff;
@@ -31,6 +28,11 @@ header {
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
 
 header h1 {
@@ -93,31 +95,33 @@ footer {
 }
 
 /* Modo oscuro */
-/* #boton{
-    position: fixed; // Fija la barra de navegación en la ventana del navegador
+#boton{
+    position: fixed; /* Fija la barra de navegación en la ventana del navegador */
     top: 10px;
-    right: 10px; // Coloca la barra de navegación en el lado derecho;
+    right: 10px; /* Coloca la barra de navegación en el lado derecho */
     border: 3px solid #ffffff;
     border-radius: 20px;
-} */
+    cursor: pointer;
+}
+#boton:hover {
+    background-color: #0056b3; /*(NO ESTÁ FUNCIONANDO)*/
+}
+
 body.dark-mode {
-    background-color: #103248 !important; /* Fondo del body */
+    color: white;
 }
 
-header.dark-mode {
-    text-align: center;
-    padding: 20px;
-    background-color: #000000; /*(NO ESTÁ FUNCIONANDO) Negro para el fondo del encabezado */
-    color: white !important; /*(NO ESTÁ FUNCIONANDO)*/
+body.dark-mode .product-card {
+    background-color: rgba(0, 0, 0, 0.75); /*(NO ESTÁ FUNCIONANDO)*/
 }
 
-.product-card.dark-mode {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+body.dark-mode .header {
+    background-color: #000000 !important; /*(NO ESTÁ FUNCIONANDO) Negro para el fondo del encabezado */
 }
+
+body.dark-mode .footer {
+    background-color: #000000 !important; /*(NO ESTÁ FUNCIONANDO) Negro para el fondo del encabezado */
+}
+
 /* Estilos para la página de detalles del producto (producto1.html, producto2.html, etc.) */
 /* Puedes agregar estilos específicos para las páginas de detalles de productos aquí */
