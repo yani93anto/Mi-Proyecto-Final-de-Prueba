@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Camiseta Monkey D. Luffy",
+        "name": "Gorro de Trafalgar D. Law",
         "price": 25.00,
         "image": "images/producto1.jpg",
         "html": "products/producto1.html"
