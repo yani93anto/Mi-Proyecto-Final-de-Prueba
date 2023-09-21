@@ -52,6 +52,21 @@ boton.addEventListener('click', function() {
     body.classList.toggle('dark-mode');// Muestra una confirmación
 })
 
+function cambioDeModo() {
+    const boton = document.getElementById('boton');
+    const body = document.body;
+  
+    if (body.classList.contains('modo-oscuro')) {
+      // Cambia a modo claro
+      body.classList.remove('modo-oscuro');
+      boton.innerText = 'Modo Oscuro';
+    } else {
+      // Cambia a modo oscuro
+      body.classList.add('modo-oscuro');
+      boton.innerText = 'Modo Claro';
+    }
+  }
+
     /*
     // Alternar la clase "dark-mode" en el elemento body
     var confirmacion = confirm('¿Deseas el modo oscuro?');

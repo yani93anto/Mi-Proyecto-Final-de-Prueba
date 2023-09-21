@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>One Piece Store</title>
+    <link type="image/png" rel="icon" href="images/Icono.png">
 </head>
-<body style="background-color: #f0f0f0; background-image: url('images/one-piece_0.webp');">
+<body style="background-image: url('images/one-piece_0.webp');">
     <header class="header">
-        <h1>One Piece Store</h1>
+        <img id="logo" class="título" src="images/Título.png" alt="Logo">
+        <img id="logo" class="título-claro" src="images/Título - Claro.png" alt="Logo Claro">
         <nav class="navbar">
             <form class="btn-nav">
               <button class="btn" type="button">Inicio</button>
               <button class="btn" type="button">Carrito</button>
             </form>
-            <button id="boton">Modo Oscuro</button> <!-- Botón de cambio de modo -->
+            <button id="boton" onclick="cambioDeModo()">Modo Oscuro</button> <!-- Botón de cambio de modo -->
         </nav>
     </header>
 
@@ -25,7 +27,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2023 One Piece Store</p>
+        <p>Yanina Cammarasana - &copy; 2023 One Piece Store</p>
     </footer>
 
     <script src="js/script.js"></script>
