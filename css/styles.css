@@ -16,7 +16,6 @@ body {
 
 header {
     background-color: #cd8b27;
-    font-family: 'MiFuenteOnePiece', sans-serif;
     font-size: 30px; /* Cambia el tamaño de la letra */
     padding: 20px;
     text-align: center;
@@ -48,8 +47,7 @@ main {
     padding: 20px;
 }
 
-
-
+/* Para pantalla de escritorio */
 @media screen and (min-width: 800px) {
     #products {
         display: flex;
@@ -68,6 +66,20 @@ main {
         width: 300px;
         height: 350px;
     }
+
+    .footer {
+        text-align: center;
+        height: 140px;
+    }
+
+    #img-footer{
+        width: 100px;
+        float: right;/* Alinea la imagen a la derecha */
+        max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor padre */
+        display: block !important;
+        padding-right: 10px;
+    }
+    
 }
 
 /* Estilos para las tarjetas de producto */
@@ -128,9 +140,19 @@ main {
 footer {
     background-color: #ED2621;
     color: #fff;
-
+    font-family: 'MiFuenteOnePiece', sans-serif;
     text-align: center;
     padding: 10px 0;
+    font-size: 20px;
+}
+
+footer p {
+    display: inline;
+    margin: 0;
+}
+
+#img-footer{
+    display: none
 }
 
 /* Botón Modo oscuro */
