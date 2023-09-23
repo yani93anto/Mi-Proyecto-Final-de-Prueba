@@ -66,29 +66,3 @@ function cambioDeModo() {
       boton.innerText = 'Modo Claro';
     }
   }
-
-    /*
-    // Alternar la clase "dark-mode" en el elemento body
-    var confirmacion = confirm('¿Deseas el modo oscuro?');
-    // Verifica la respuesta de la confirmación
-    if (confirmacion) {
-        // El usuario hizo clic en "Aceptar", realiza la acción deseada aquí
-        boton.innerHTML = 'Modo Claro'; // Cambia el texto del botón
-        header.classList.toggle('dark-mode');// Muestra una confirmación
-        body.classList.toggle('dark-mode');// Muestra una confirmación
-        productCard.classList.toggle('dark-mode');// Muestra una confirmación
-    } else {
-        // El usuario hizo clic en "Cancelar" o cerró el cuadro de diálogo
-        alert('Modo Claro');
-        boton2.addEventListener('click', function() {
-            // Alternar la clase "dark-mode" en el elemento body
-            var confirmacion2 = confirm('¿Deseas el modo claro?');
-            // Verifica la respuesta de la confirmación
-            if (confirmacion2) {
-                // El usuario hizo clic en "Aceptar", realiza la acción deseada aquí
-                boton2.innerHTML = 'Modo Oscuro'; // Cambia el texto del botón
-                body.classList.toggle('white-mode');// Muestra una confirmación
-            }else {
-                // El usuario hizo clic en "Cancelar" o cerró el cuadro de diálogo
-                alert('Modo Oscuro');}
-    });}*/

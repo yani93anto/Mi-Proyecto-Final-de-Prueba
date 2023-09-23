@@ -10,7 +10,16 @@
         "id": 2,
         "name": "Figura Roronoa Zoro",
         "price": 40.00,
-        "image": "images/producto2.jpg",
+        "image": ["images/2/B (1).jpg",
+        "images/2/B (2).jpg",
+        "images/2/B (3).jpg",
+        "images/2/B (4).jpg",
+        "images/2/B (5).jpg",
+        "images/2/B (6).jpg",
+        "images/2/B (7).jpg",
+        "images/2/B (8).jpg",
+        "images/2/B (9).jpg",
+        "images/2/B (10).jpg"],
         "html": "products/producto2.html"
     },
     {
