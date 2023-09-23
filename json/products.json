@@ -1,53 +1,53 @@
 [
-    {
-      "id": 1,
-        "name": "Figura Portgas D. Ace",
-        "price": 25.00,
-        "image": [
+  {
+    "id": 1,
+    "name": "Figura Portgas D. Ace",
+    "price": 25.00,
+    "image": [
         "images/Producto 1/A (1).jpg",
         "images/Producto 1/A (2).jpg",
         "images/Producto 1/A (3).jpg",
         "images/Producto 1/A (4).jpg"
-      ]
-    },
-    {
-      "id": 2,
-        "name": "Figura Tony Tony Chopper",
-        "price": 25.00,
-        "image": [
-          "images/Producto 2/B (1).jpg",
-          "images/Producto 2/B (2).jpg",
-          "images/Producto 2/B (3).jpg",
-          "images/Producto 2/B (4).jpg",
-          "images/Producto 2/B (5).jpg",
-          "images/Producto 2/B (6).jpg"
-      ]
-    },
-    {
-        "id": 3,
-        "name": "Figura Vinsmoke Sanji",
-        "price": 15.00,
-        "image": [
-          "images/Producto 3/C (1).jpg",
-          "images/Producto 3/C (2).jpg",
-          "images/Producto 3/C (3).jpg",
-          "images/Producto 3/C (4).jpg",
-          "images/Producto 3/C (5).jpg",
-          "images/Producto 3/C (6).jpg"
-        ]
-    },
-    {
-      "id": 4,
-      "name": "Figura Monkey D. Luffy",
-      "price": 15.00,
-      "image": [
-        "images/Producto 4/D (1).jpg",
-        "images/Producto 4/D (2).jpg",
-        "images/Producto 4/D (3).jpg",
-        "images/Producto 4/D (4).jpg",
-        "images/Producto 4/D (5).jpg",
-        "images/Producto 4/D (6).jpg"
-      ]
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Figura Tony Tony Chopper",
+    "price": 25.00,
+    "image": [
+        "images/Producto 2/B (1).jpg",
+        "images/Producto 2/B (2).jpg",
+        "images/Producto 2/B (3).jpg",
+        "images/Producto 2/B (4).jpg",
+        "images/Producto 2/B (5).jpg",
+        "images/Producto 2/B (6).jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Figura Vinsmoke Sanji",
+    "price": 15.00,
+    "image": [
+        "images/Producto 3/C (1).jpg",
+        "images/Producto 3/C (2).jpg",
+        "images/Producto 3/C (3).jpg",
+        "images/Producto 3/C (4).jpg",
+        "images/Producto 3/C (5).jpg",
+        "images/Producto 3/C (6).jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Figura Monkey D. Luffy",
+    "price": 15.00,
+    "image": [
+      "images/Producto 4/D (1).jpg",
+      "images/Producto 4/D (2).jpg",
+      "images/Producto 4/D (3).jpg",
+      "images/Producto 4/D (4).jpg",
+      "images/Producto 4/D (5).jpg",
+      "images/Producto 4/D (6).jpg"
+    ]
   },
   {
     "id": 5,
@@ -61,55 +61,55 @@
       "images/Producto 5/E (5).jpg",
       "images/Producto 5/E (6).jpg"
     ]
-},
-{
-  "id": 6,
-  "name": "Figura Shanks",
-  "price": 15.00,
-  "image": [
-    "images/Producto 6/F (1).jpg",
-    "images/Producto 6/F (2).jpg",
-    "images/Producto 6/F (3).jpg",
-    "images/Producto 6/F (4).jpg",
-    "images/Producto 6/F (5).jpg"
-  ]
-},
-{
-  "id": 7,
-  "name": "Trafalgar D. Water Law",
-  "price": 15.00,
-  "image": [
-    "images/Producto 7/G (1).jpg",
-    "images/Producto 7/G (2).jpg",
-    "images/Producto 7/G (3).jpg",
-    "images/Producto 7/G (4).jpg",
-    "images/Producto 7/G (5).jpg",
-    "images/Producto 7/G (6).jpg"
-  ]
-},
-{
-  "id": 8,
-  "name": "Usopp",
-  "price": 15.00,
-  "image": [
-    "images/Producto 8/H (1).jpg",
-    "images/Producto 8/H (2).jpg",
-    "images/Producto 8/H (3).jpg",
-    "images/Producto 8/H (4).jpg",
-    "images/Producto 8/H (5).jpg"
-  ]
-},
-{
-  "id": 9,
-  "name": "Roronoa Zoro",
-  "price": 15.00,
-  "image": [
-    "images/Producto 9/I (1).jpg",
-    "images/Producto 9/I (2).jpg",
-    "images/Producto 9/I (3).jpg",
-    "images/Producto 9/I (4).jpg",
-    "images/Producto 9/I (5).jpg",
-    "images/Producto 9/I (6).jpg"
-  ]
-}
-  ]
+  },
+  {
+    "id": 6,
+    "name": "Figura Shanks",
+    "price": 15.00,
+    "image": [
+      "images/Producto 6/F (1).jpg",
+      "images/Producto 6/F (2).jpg",
+      "images/Producto 6/F (3).jpg",
+      "images/Producto 6/F (4).jpg",
+      "images/Producto 6/F (5).jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Trafalgar D. Water Law",
+    "price": 15.00,
+    "image": [
+      "images/Producto 7/G (1).jpg",
+      "images/Producto 7/G (2).jpg",
+      "images/Producto 7/G (3).jpg",
+      "images/Producto 7/G (4).jpg",
+      "images/Producto 7/G (5).jpg",
+      "images/Producto 7/G (6).jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Usopp",
+    "price": 15.00,
+    "image": [
+      "images/Producto 8/H (1).jpg",
+      "images/Producto 8/H (2).jpg",
+      "images/Producto 8/H (3).jpg",
+      "images/Producto 8/H (4).jpg",
+      "images/Producto 8/H (5).jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Roronoa Zoro",
+    "price": 15.00,
+    "image": [
+      "images/Producto 9/I (1).jpg",
+      "images/Producto 9/I (2).jpg",
+      "images/Producto 9/I (3).jpg",
+      "images/Producto 9/I (4).jpg",
+      "images/Producto 9/I (5).jpg",
+      "images/Producto 9/I (6).jpg"
+    ]
+  }
+    ]
