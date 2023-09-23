@@ -96,6 +96,7 @@ main {
         align-items: center;
         justify-content: space-around;
         height: auto;
+        width: 300px;
       }
   
       /* Estilos para las imágenes del carrusel */
@@ -106,6 +107,7 @@ main {
         border-width: 3px;
         border-style: dashed;
         border-color: #ffffff;
+        width: 100%;
       }
       
 .product-card h2 {
@@ -211,4 +213,3 @@ body.dark-mode .footer {
 
 /* Estilos para la página de detalles del producto (producto1.html, producto2.html, etc.) */
 /* Puedes agregar estilos específicos para las páginas de detalles de productos aquí */
-
