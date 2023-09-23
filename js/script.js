@@ -45,10 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const productCard = document.createElement("div");
         productCard.classList.add("product-card");
 
-        const productImage = document.createElement("img");
-        productImage.src = product.image;
-        productImage.alt = product.name;
-
         const productName = document.createElement("h2");
         productName.textContent = product.name;
 
@@ -59,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
         productLink.textContent = "Ver detalles";
         productLink.href = product.html;
 
-        productCard.appendChild(productImage);
         productCard.appendChild(productName);
         productCard.appendChild(productPrice);
         productCard.appendChild(productLink);
