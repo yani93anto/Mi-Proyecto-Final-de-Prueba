@@ -67,9 +67,19 @@ main {
         width: 50vw;
     }
 
+    main {
+        padding: 10px !important;
+        margin: 0px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+
     .product-card {
-        width: 300px;
-        height: 350px;
+        width: 300px !important;
+        height: 350px !important;
+        margin: 10px !important;
     }
 
     .footer {
