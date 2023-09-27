@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Piece Store</title>
     <link type="image/png" rel="icon" href="images/Icono.png">
-  <!-- Incluye la biblioteca Slick Carousel -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-  <!-- Estilos para la tarjeta de producto -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body style="background-image: url('images/one-piece_0.webp');">
-  <header class="header">
-    <img id="logo" class="título" src="images/Título.png" alt="Logo">
-    <img id="logo" class="título-claro" src="images/Título - Claro.png" alt="Logo Claro">
-    <nav class="navbar">
-        <form class="btn-nav">
-          <button class="btn" type="button">Inicio</button>
-          <button class="btn" type="button">Carrito</button>
-        </form>
-        <button id="boton" onclick="cambioDeModo()">Modo Oscuro</button> <!-- Botón de cambio de modo -->
-    </nav>
-</header>
+    <!-- Incluye la biblioteca Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- Estilos para la tarjeta de producto -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="background-image: url('images/one-piece_0.webp');">
+    <header class="header">
+      <img id="logo" class="título" src="images/Título.png" alt="Logo">
+      <img id="logo" class="título-claro" src="images/Título - Claro.png" alt="Logo Claro">
+      <nav class="navbar">
+          <form class="btn-nav">
+            <button class="btn" type="button"><a href="index.html">Inicio</a></button>
+            <button class="btn" type="button"><a href="#nosotros">Nosotros</a></button>
+            <button class="btn" type="button"><a href="#productos">Productos</a></button>
+            <button class="btn" type="button"><a href="#contacto">Contacto</a></button>
+          </form>
+          <button id="boton" onclick="cambioDeModo()">Modo Oscuro</button> <!-- Botón de cambio de modo -->
+      </nav>
+    </header>
 
-<main>
-  <div id="products"></div>
-</main>
+    <main>
+      <div class="main-general">
+        <hr class="hr-con-estrella">
+      <section id="nosotros">
+      <h2>Nosotros</h2>
+      <hr class="hr-con-estrella">
+        <p>¡Bienvenidos a One Piece Store! Somos un equipo de apasionados por One Piece que ha decidido convertir nuestra pasión en un negocio emocionante. Nuestra historia pirata comenzó con un sueño de explorar los mares junto a Monkey D. Luffy y su tripulación, y ahora queremos compartir ese sueño contigo.
 
-<footer class="footer">
-  <p>Yanina Cammarasana - &copy; 2023 One Piece Store</p>
-  <img id="img-footer" src="images/img-footer.png" alt="luffy">
-</footer>
+          Nos apasiona cada detalle del mundo de One Piece, desde los personajes carismáticos hasta los lugares misteriosos y los emocionantes combates. Estamos dedicados a brindarte una experiencia única de compra, donde cada producto que ofrecemos es como un tesoro encontrado en la Gran Ruta.
+          
+          En One Piece Store encontrarás una amplia gama de productos de alta calidad relacionados con One Piece.
+          
+          Nuestro compromiso es proporcionarte productos auténticos y únicos que reflejen la grandeza de One Piece. Ya sea que estés buscando una camiseta con tu personaje favorito, una réplica de una Fruta del Diablo o cualquier otro artículo relacionado con la serie, estamos seguros de que encontrarás algo que te emocione.
+          
+          Gracias por unirte a nosotros en esta emocionante aventura a través del Grand Line. ¡Navega por nuestra tienda y descubre el mundo de One Piece como nunca antes!</p>
+          
+        <p><span>¡Sigue soñando y navegando hacia tus propios horizontes!<img src="images/calavera.png" alt="Imagen logo" ></span></p>
+      </section><br>
+        <hr class="hr-con-estrella">
+      <section id="productos">
+      <h2>Productos</h2>
+        <hr class="hr-con-estrella">
+        <p></p>
+      </section>
+        </div>
+      <div class="main-productos">
+        <div id="products"></div></div>
+        <hr class="hr-con-estrella">
+    </main>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Incluye la biblioteca Slick Carousel -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <footer class="footer">
+      <p>Yanina Cammarasana - &copy; 2023 One Piece Store</p>
+      <img id="img-footer" src="images/img-footer.png" alt="luffy">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluye la biblioteca Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
