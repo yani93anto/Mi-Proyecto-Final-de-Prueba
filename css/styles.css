@@ -83,6 +83,10 @@ main {
     text-shadow: 0 0 10px #b855ff;
 }
 
+p {
+    line-height: 1.3;
+}
+
 /*Firma*/
 p span {
     font-weight: bold;
