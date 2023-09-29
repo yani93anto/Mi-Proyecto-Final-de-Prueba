@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // Obtener el contenedor de productos
+  const productsContainer = document.getElementById("products");
+
     // Realiza una solicitud Fetch para cargar datos desde el archivo JSON
     fetch("json/products.json")
       .then(response => {
@@ -8,13 +11,17 @@ document.addEventListener("DOMContentLoaded", function() {
         return response.json();
       })
       .then(products => {
-      const productsContainer = document.getElementById("products");
   
       products.forEach(producto => {
-        const productCard = createProductCard(producto);
-        const card = document.createElement("div");
-        card.classList.add("product-card");
+        // Crear el contenedor del producto
+        const productCard = document.createElement("div");
+        productCard.classList.add("product-card");
+
+        // Crear el título h3
+        const productName = document.createElement("h3");
+        productName.textContent = producto.name;
   
+        // Crear el carrusel de imágenes
         const carousel = document.createElement("div");
         carousel.classList.add("product-images");
   
@@ -23,9 +30,24 @@ document.addEventListener("DOMContentLoaded", function() {
           img.src = imagen;
           carousel.appendChild(img);
         });
+
+        const productPrice = document.createElement("span");
+        productPrice.textContent = `$${producto.price.toFixed(2)}`;
+
+        const productLink = document.createElement("a");
+        productLink.textContent = "Ver detalles";
   
+        productCard.appendChild(productName);
+        productCard.appendChild(productPrice);
         productCard.appendChild(carousel);
+        productCard.appendChild(productLink);
         productsContainer.appendChild(productCard);
+
+        productLink.addEventListener("click", () => {
+          window.location.href = `product.html?id=${product.id}`;
+        });
+
+        return productCard;
       });
   
       // Inicializa Slick Carousel
@@ -40,30 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
 .catch(error => {
   console.error(error);
 })
-    // Función para crear un elemento de producto en el DOM
-    function createProductCard(product) {
-        const productCard = document.createElement("div");
-        productCard.classList.add("product-card");
 
-        const productName = document.createElement("h3");
-        productName.textContent = product.name;
-
-        const productPrice = document.createElement("span");
-        productPrice.textContent = `$${product.price.toFixed(2)}`;
-
-        const productLink = document.createElement("a");
-        productLink.textContent = "Ver detalles";
-
-        productCard.appendChild(productName);
-        productCard.appendChild(productPrice);
-        productCard.appendChild(productLink);
-
-        productLink.addEventListener("click", () => {
-          window.location.href = `product.html?id=${product.id}`;
-        });
-
-        return productCard;
-    }
 });
 
 /* Dark Mode */
