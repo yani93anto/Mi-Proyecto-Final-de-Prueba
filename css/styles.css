@@ -10,6 +10,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
@@ -59,8 +60,15 @@ nav form a {
     font-family: "Belanosima" !important;
     display: block;
     width: 90px;
-    }
+}
 
+
+#btn {
+    font-size: 125%;
+    text-decoration: none;
+    color: black;
+    font-family: "Belanosima" !important;
+}
 
 main {
     background-color: rgba(255, 255, 255, 0.5);
@@ -73,11 +81,11 @@ main {
 }
 
 .main-general {
-    padding: 10px;
     margin: 20px;
+    padding: 10px;
 }
 
-.main-general h2 {
+h2 {
     text-align: center;
     font-size: 30px;
     margin: 20px;
@@ -234,6 +242,46 @@ p span img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+/*Contacto*/
+
+.main-contacto {
+    margin: 20px !important;
+    padding: 10px !important;
+    width: 97% !important;
+    box-sizing: border-box !important;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto a {
+    color: rgb(0, 0, 0);
+}
+
+.redes a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes img{
+    vertical-align: middle;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.conts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
 /* Estilos para el pie de página */
 footer {
     background-color: #ED2621;
@@ -291,8 +339,17 @@ body.dark-mode main {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
-body.dark-mode .main-general h2 {
+body.dark-mode h2 {
     text-shadow: 0 0 10px #4c1a70;
+}
+
+body.dark-mode .contacto a {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .redes a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 body.dark-mode .hr-con-estrella{
