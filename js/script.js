@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         productsContainer.appendChild(productCard);
 
         productLink.addEventListener("click", () => {
-          window.location.href = `product.html?id=${product.id}`;
+          window.location.href = `product.html?id=${producto.id}`;
         });
 
         return productCard;

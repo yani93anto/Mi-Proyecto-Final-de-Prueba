@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const productoContenedor = document.querySelector(".producto_contenedor");
     //BUSCO EL PORDUCTO POR ID MEDAINTE EL METODO FIND PARA RECORRER CADA ITEM DEL ARREGLO PORDUCTOS.
-    const producto = productos.find((producto) => product.id == idProducto);
+    const producto = productos.find((producto) => producto.id == idProducto);
   
     if (producto) {
       const imagenContenedor = document.createElement("div");
