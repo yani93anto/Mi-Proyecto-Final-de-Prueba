@@ -170,7 +170,7 @@ p span img {
     
 }
 
-    /* Estilos para la tarjeta de producto */
+/* Estilos para la tarjeta de producto */
     .product-card {
         border: 3px solid #007bff;
         border-radius: 20px;
@@ -231,6 +231,7 @@ p span img {
 
 .product-card a:hover {
     background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 /* Estilos para el pie de página */
@@ -307,6 +308,10 @@ body.dark-mode .hr-con-estrella:before {
 body.dark-mode .product-card {
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode .product-card a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 body.dark-mode .header {
