@@ -1,17 +1,15 @@
+PROYECTO2-NOMBRE-APELLIDO
+
 - index.html
 - products/
-    - producto1.html
-    - producto2.html
-    - producto3.html
-    - producto4.html
-    - producto5.html
-    - producto6.html
+    - product.html
 - json/
     - products.json
 - css/
     - styles.css
 - js/
     - script.js
+    - script_producto.js
 - images/
     - producto1.jpg
     - producto2.jpg
