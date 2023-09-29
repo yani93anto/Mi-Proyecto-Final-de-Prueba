@@ -44,6 +44,7 @@ header {
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
+    transition: background-color 0.3s;
     cursor: pointer;
 }
 
@@ -202,7 +203,7 @@ p span img {
         width: 100%;
       }
       
-.product-card h2 {
+.product-card h3 {
     font-size: 18px;
     margin-top: 0px;
 }
@@ -225,7 +226,7 @@ p span img {
     border-radius: 4px;
     margin-top: 10px;
     transition: background-color 0.3s;
-    
+    cursor: pointer;
 }
 
 .product-card a:hover {
@@ -260,6 +261,7 @@ footer p {
     background-color: black;
     color: white;
     border-radius: 20px;
+    transition: background-color 0.3s;
     cursor: pointer;
     z-index: 1;
 }

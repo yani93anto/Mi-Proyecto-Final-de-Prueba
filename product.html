@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Store</title>
+    <link type="image/png" rel="icon" href="images/Icono.png">
+    <!-- Incluye la biblioteca Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- Estilos para la tarjeta de producto -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="background-image: url('images/one-piece_0.webp');">
+    <header class="header">
+      <img id="logo" class="título" src="images/Título.png" alt="Logo">
+      <img id="logo" class="título-claro" src="images/Título - Claro.png" alt="Logo Claro">
+      <nav class="navbar">
+          <form class="btn-nav">
+            <button class="btn" type="button"><a href="index.html">Inicio</a></button>
+            <button class="btn" type="button"><a href="index.html#nosotros">Nosotros</a></button>
+            <button class="btn" type="button"><a href="index.html#productos">Productos</a></button>
+            <button class="btn" type="button"><a href="index.html#contacto">Contacto</a></button>
+          </form>
+          <button id="boton" onclick="cambioDeModo()">Modo Oscuro</button> <!-- Botón de cambio de modo -->
+      </nav>
+    </header>
+
+    <main>
+      <div class="producto_contenedor"></div>
+      <div class="botones">
+        <a href="index.html#productos" class="boton_volver">Volver</a>
+        <a href="#" class="boton_comprar">Comprar</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Yanina Cammarasana - &copy; 2023 One Piece Store</p>
+      <img id="img-footer" src="images/img-footer.png" alt="luffy">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluye la biblioteca Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script _producto.js"></script>
+  </body>
+</html>

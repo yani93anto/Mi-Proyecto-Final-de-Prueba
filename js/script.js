@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const productCard = document.createElement("div");
         productCard.classList.add("product-card");
 
-        const productName = document.createElement("h2");
+        const productName = document.createElement("h3");
         productName.textContent = product.name;
 
         const productPrice = document.createElement("span");
@@ -53,11 +53,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const productLink = document.createElement("a");
         productLink.textContent = "Ver detalles";
-        productLink.href = product.html;
 
         productCard.appendChild(productName);
         productCard.appendChild(productPrice);
         productCard.appendChild(productLink);
+
+        productLink.addEventListener("click", () => {
+          window.location.href = `product.html?id=${product.id}`;
+        });
 
         return productCard;
     }
