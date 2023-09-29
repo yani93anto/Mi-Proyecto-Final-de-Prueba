@@ -9,7 +9,7 @@
 /* Estilos generales */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
@@ -20,6 +20,9 @@ body {
 
 header {
     background-color: #cd8b27;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    color: #ffffff;
     font-size: 30px; /* Cambia el tamaño de la letra */
     padding: 20px;
     text-align: center;
@@ -34,6 +37,7 @@ header {
     width: 80vw;
 }
 
+/* Estilos para los botones del nav*/
 .btn {
     background-color: #007bff;
     border: 3px solid rgba(255, 255, 255, 0.75);
@@ -46,31 +50,43 @@ header {
 .btn:hover {
     background-color: #0056b3;
 }
+
 nav form a {
+    font-size: 125%;
     text-decoration: none;
     color: black;
     font-family: "Belanosima" !important;
-}
+    display: block;
+    width: 90px;
+    }
+
 
 main {
-    font-family: "Poppins", sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.5);
 }
+
 .main-general {
     padding: 10px;
     margin: 20px;
 }
 
+.main-general h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    text-shadow: 0 0 10px #b855ff;
+}
+
+/*Firma*/
 p span {
     font-weight: bold;
     font-style: italic;
-    
 }
 
 p span img {
@@ -84,7 +100,7 @@ p span img {
     height: 2px;
     background: linear-gradient(to right, blue, hotpink, blue);
     margin: 20px 0;
-    border: 1px solid #ffffff;
+    border: 1px dotted #ffffff;
     box-shadow: 0 0 3px #000000;
     overflow: visible;
   }
@@ -154,7 +170,6 @@ p span img {
         border: 3px solid #007bff;
         border-radius: 20px;
         padding: 20px;
-        margin-top: 30px;
         margin-bottom: 30px;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.25);
@@ -164,7 +179,7 @@ p span img {
         align-items: center;
         justify-content: space-around;
         height: auto;
-        width: 80vw;
+        width: 70vw;
       }
   
       /* Estilos para las imágenes del carrusel */
@@ -269,8 +284,12 @@ body.dark-mode main {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
+body.dark-mode .main-general h2 {
+    text-shadow: 0 0 10px #4c1a70;
+}
+
 body.dark-mode .hr-con-estrella{
-    border: 1px solid #000000;
+    border: 1px dotted #000000;
     box-shadow: 0 0 3px #ffffff;
 }
 
