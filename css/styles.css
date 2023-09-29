@@ -306,6 +306,7 @@ body.dark-mode .hr-con-estrella:before {
 
 body.dark-mode .product-card {
     background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.8);
 }
 
 body.dark-mode .header {
