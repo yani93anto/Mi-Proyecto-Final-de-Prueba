@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>Calificación: <span>${producto.score}</span></p>
         <p>${producto.detail}</p>
         </section></section></div>
+        <hr class="hr-con-estrella">
     `;
 } else {
     console.log("El producto con ese ID no fue encontrado");
