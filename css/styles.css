@@ -175,6 +175,16 @@ p span img {
         display: block !important;
         padding-right: 10px;
     }
+
+    /*Estilo para html de productos*/
+       
+      .product-info-main {
+        flex-direction: row !important;
+      }
+    
+      .product-info-images {
+        width: 40%  !important;
+      }
     
 }
 
@@ -391,56 +401,37 @@ body.dark-mode .footer {
 /* Estilos para la página de detalles del producto*/
 /*CONTENEDOR PRODUCTO*/
 
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 .producto_contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fdfdfd;
-    margin: 8rem 6vw;
-    width: 88vw;
-    margin-bottom: 2rem;
   }
   
-  .imagen_contenedor {
-    margin: 1rem 0;
-  }
-  
-  .imagen_contenedor img {
-    width: 18rem;
-  }
-  
-  .texto_contenedor {
-    margin-bottom: 1rem;
-  }
-  
-  .texto_contenedor * {
-    margin: 0.62rem 0;
-  }
-  
-  .texto_precio {
-    font-size: 1.3rem;
-    color: #a7a7a7;
-    font-weight: 600;
-  }
-  
-  .texto_envio {
-    font-size: 1rem;
-    color: #13c00d;
-    font-weight: 600;
-  }
-  
-  .detalle_producto {
-    margin: 0 6vw;
-    font-family: Rubik;
+  .product-info-main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .product-info-images {
+    width: 70%;
+    margin-right: 20px;
+    border-radius: 40px;
   }
   
-  .detalle_producto p {
-    font-size: 1.18rem;
+  .product-info {
+    margin-bottom: 1rem;
+    font-weight: 600;
   }
   
-  .estrellas {
-    font-size: 3rem;
-    color: rgb(119, 119, 105);
+  .product-info span {
+    font-size: 2rem;
+    color: rgb(255, 255, 100);
   }

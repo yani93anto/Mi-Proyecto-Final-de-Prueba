@@ -13,12 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // Muestra los detalles del producto en la página
     const productoContenedor = document.querySelector(".producto_contenedor");
     productoContenedor.innerHTML = `
+        <div><hr class="hr-con-estrella">
         <h2>${producto.name}</h2>
-        <img src="${producto.image[0]}" alt="${producto.name}">
+        <hr class="hr-con-estrella">
+        <section class="product-info-main">
+        <img class="product-info-images" src="${producto.image[0]}" alt="${producto.name}">
+        <section class="product-info">
         <p>Precio: $${producto.price.toFixed(2)}</p>
-        <p>Envío Gratis</p>
-        <p>Calificación: ${producto.score}</p>
+        <p>Calificación: <span>${producto.score}</span></p>
         <p>${producto.detail}</p>
+        </section></section></div>
     `;
 } else {
     console.log("El producto con ese ID no fue encontrado");
