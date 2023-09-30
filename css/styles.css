@@ -405,6 +405,7 @@ body.dark-mode .footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .producto_contenedor {
