@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const idProducto = urlParams.get("id");
   
   // Obtiene los datos de productos del almacenamiento local
-  const products = JSON.parse(localStorage.getItem("products"));
+  const products = JSON.parse(localStorage.getItem("productos"));
   
   // Busca el producto por ID
   const producto = products.find(producto => producto.id == idProducto);

@@ -389,7 +389,7 @@ body.dark-mode .footer {
 }
 
 /* Estilos para la página de detalles del producto*/
-/*CONTENEDOR PRODUCTO
+/*CONTENEDOR PRODUCTO*/
 
 .producto_contenedor {
     display: flex;
@@ -443,4 +443,4 @@ body.dark-mode .footer {
   .estrellas {
     font-size: 3rem;
     color: rgb(119, 119, 105);
-  } */
+  }

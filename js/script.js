@@ -58,6 +58,9 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: true,
         autoplaySpeed: 2000 // Velocidad de reproducción automática en milisegundos
     });
+
+    // Almacena los datos del JSON en localStorage
+    localStorage.setItem("productos", JSON.stringify(products));
 })
 .catch(error => {
   console.error(error);
