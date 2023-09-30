@@ -10,7 +10,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
     background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
@@ -422,6 +422,13 @@ body.dark-mode .footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: justify
+  }
+
+  .product-info-main ul li {
+    margin-bottom:2%
   }
 
   .product-info-images {
