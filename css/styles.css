@@ -184,6 +184,7 @@ p span img {
     
       .product-info-images {
         width: 40%  !important;
+        margin-right: 20px;
       }
     
 }
@@ -424,7 +425,6 @@ body.dark-mode .footer {
 
   .product-info-images {
     width: 100%;
-    margin-right: 20px;
     border-radius: 40px;
   }
   
